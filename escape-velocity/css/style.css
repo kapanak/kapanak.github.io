@@ -998,7 +998,7 @@
 
 			#footer-wrapper .button-style2:active
 			{
-				box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.75);
+				box-shadow: inset 0px 0px 2px 0px rgba(0,0,0.75);
 			}
 
 		#footer-wrapper .title
@@ -1042,9 +1042,9 @@
 	
 	.wrapper-style1
 	{
-		background: #f1560b url('images/overlay.png');
-		color: #eee;
-		color: rgba(255,255,255,0.75);
+		background: #fff url('images/overlay.png');
+		color: #484d55;
+		/*color: rgba(255,255,255,0.75);*/
 	}
 	
 		.wrapper-style1 .title
@@ -1053,19 +1053,7 @@
 			color: #fff;
 		}
 	
-		.wrapper-style1 h1,
-		.wrapper-style1 h2,
-		.wrapper-style1 h3,
-		.wrapper-style1 h4,
-		.wrapper-style1 h5,
-		.wrapper-style1 h6,
-		.wrapper-style1 strong,
-		.wrapper-style1 b,
-		.wrapper-style1 a
-		{
-			color: #fff;
-		}
-	
+		
 	.wrapper-style2
 	{
 		background: #fff;

@@ -263,12 +263,12 @@
 		{
 			font-size: 0.9em;
 			width: 25em;
-			height: 3.25em;
-			top: -3.25em;
-			line-height: 3.25em;
+			height: 2.0em;
+			/*top: -3.25em;*/
+			/*line-height: 3.25em;*/
 			margin-bottom: -3.25em;
 			margin-left: -12.5em;
-			padding-top: 0.5em;
+			/*padding-top: 0.5em;*/
 		}
 
 	#header-wrapper
@@ -310,7 +310,7 @@
 	{
 		position: absolute;
 		height: 5em;
-		top: 25%;
+		top: 40%;
 		left: 0;
 		width: 100%;
 		text-align: center;
@@ -382,6 +382,7 @@
 				letter-spacing: 0.25em;
 				height: 5em;
 				line-height: 5em;
+				width: 7em;
 				-moz-transition: all .25s ease-in-out;
 				-webkit-transition: all .25s ease-in-out;
 				-o-transition: all .25s ease-in-out;
@@ -394,8 +395,9 @@
 			#nav > ul > li.active > a,
 			#nav > ul > li.active > span
 			{
-				color: rgb(0,0,0);
-				background-color: rgb(210,210,210);
+				/*color: rgb(241, 86, 11);*/
+				font-weight: bold;
+				/*background-color: rgb(210,210,210);*/
 			}
 
 	.dropotron
