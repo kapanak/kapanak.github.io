@@ -1,0 +1,61 @@
+<jnlp spec="1.0+" codebase="http://kapanak.ca/pmt-tool" href="pmt-1.0.jnlp">
+  <information>
+    <title>
+      Gradle Webstart example
+    </title>
+    <vendor>
+      ANotes
+    </vendor>
+    <description kind="one-line">
+      Simple example of generating webstart files using gradle
+    </description>
+    <description kind="short">
+      Simple example of generating webstart files using gradle
+    </description>
+    <description kind="tooltip">
+      Simple example of generating webstart files using gradle
+    </description>
+    <offline-allowed/>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.6+" initial-heap-size="128m" max-heap-size="512m"/>
+    <jar href="aopalliance-1.0.jar"/>
+    <jar href="commons-codec-1.10.jar"/>
+    <jar href="commons-collections-3.2.1.jar"/>
+    <jar href="commons-logging-1.2.jar"/>
+    <jar href="gson-2.3.1.jar"/>
+    <jar href="guava-18.0.jar"/>
+    <jar href="jide-action.jar"/>
+    <jar href="jide-common.jar"/>
+    <jar href="jide-components.jar"/>
+    <jar href="jide-dashboard.jar"/>
+    <jar href="jide-dock.jar"/>
+    <jar href="jide-editor.jar"/>
+    <jar href="jide-gantt.jar"/>
+    <jar href="jide-grids.jar"/>
+    <jar href="jide-plaf-jdk7.jar"/>
+    <jar href="jide-plaf.jar"/>
+    <jar href="jide-treemap.jar"/>
+    <jar href="jtds-1.3.1.jar"/>
+    <jar href="log4j-1.2.17.jar"/>
+    <jar href="mpxj.jar"/>
+    <jar href="pmt-gui-1.0.jar"/>
+    <jar href="pmt-lib-1.0.jar"/>
+    <jar href="poi-3.10.1.jar"/>
+    <jar href="slf4j-api-1.7.12.jar"/>
+    <jar href="slf4j-log4j12-1.7.12.jar"/>
+    <jar href="snakeyaml-1.14.jar"/>
+    <jar href="spring-aop-4.1.6.RELEASE.jar"/>
+    <jar href="spring-beans-4.1.6.RELEASE.jar"/>
+    <jar href="spring-boot-1.2.3.RELEASE.jar"/>
+    <jar href="spring-boot-autoconfigure-1.2.3.RELEASE.jar"/>
+    <jar href="spring-context-4.1.6.RELEASE.jar"/>
+    <jar href="spring-core-4.1.6.RELEASE.jar"/>
+    <jar href="spring-expression-4.1.6.RELEASE.jar"/>
+    <jar href="sqlite-jdbc-3.8.7.jar"/>
+  </resources>
+  <application-desc main-class="org.anotes.example.gradlewebstart.MainApp"/>
+</jnlp>
