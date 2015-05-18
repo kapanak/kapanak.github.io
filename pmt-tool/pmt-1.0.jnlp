@@ -57,5 +57,5 @@
     <jar href="spring-expression-4.1.6.RELEASE.jar"/>
     <jar href="sqlite-jdbc-3.8.7.jar"/>
   </resources>
-  <application-desc main-class="org.anotes.example.gradlewebstart.MainApp"/>
+  <application-desc main-class="ca.kapanak.pmt.Main"/>
 </jnlp>
