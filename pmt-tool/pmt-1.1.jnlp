@@ -1,4 +1,4 @@
-<jnlp spec="1.0+" codebase="http://kapanak.ca/pmt-tool" href="pmt-1.0.jnlp">
+<jnlp spec="1.0+" codebase="http://kapanak.ca/pmt-tool" href="pmt-1.1.jnlp">
   <information>
     <title>
       Gradle Webstart example
