@@ -22,13 +22,19 @@
     left: auto;
     right: auto;
 }
+.top-nav >li.current {
+    font-weight: bold;
+}
+
 .top-nav >li>a{
     color: black;
+    background: transparent;
 }
 .top-nav>li>a:hover{
     font-weight: bold;
-    background-color: transparent;
+    background: transparent;
 }
+
 body {
     background: url('../images/overlay.png');
 }
@@ -74,4 +80,24 @@ body {
 .starter-template{
     padding: 40px 15px;
     text-align: center;
+}
+
+.contact-box {
+    display: block;
+    position: relative;
+}
+.iconed {
+    display: flex;
+    margin: 10px auto;
+    align-items : center;
+    padding-left: 24px;
+}
+.icon-left {
+    padding-right: 40px;
+    font-size: 24px;
+    display: inline;
+}
+.icon-text {
+    display: inline;
+    
 }
